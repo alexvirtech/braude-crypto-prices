@@ -11,6 +11,10 @@
             color: #fff;
         }
 
+        .light .light\:text-black {
+            color: #000;
+        }
+
         .dark .dark\:bg-gray-800 {
             background-color: #1f2937;
         }
@@ -28,7 +32,7 @@
 </head>
 
 <body class="pb-6">
-    <div class="max-w-[300px] mx-auto px-4 dark:text-white">
+    <div class="max-w-[300px] mx-auto px-4 dark:text-white light:text-black">
         <div class="text-2xl py-6">Cryptocurrency Prices</div>
         <table class="w-full" id="price-table"></table>
     </div>
