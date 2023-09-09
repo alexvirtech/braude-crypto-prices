@@ -1,4 +1,4 @@
-const url = "https://api.mtw-testnet.com/tickers/all"
+const url = "https://mtickers.mtw-testnet.com/data" //"https://api.mtw-testnet.com/tickers/all"
 let priceData = {}
 
 const formatTimestamp = (timestamp) => {
